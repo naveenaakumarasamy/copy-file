@@ -24,7 +24,7 @@ The content in the original file will be copied in the new file.
 End the program
 
 ## PROGRAM:
-
+```python
 Developed by: naveenaa A.K
 RegisterNumber: 22003091
 
@@ -32,7 +32,7 @@ with open('navee.txt','r') as f3:
     with open ('navee4.txt','a') as f4:
         for line in f3:
             f4.write(line)
-            
+```            
 
 ### OUTPUT:
 ![append](https://user-images.githubusercontent.com/113497406/194220019-1264a050-cac1-47da-9a05-60ca7efe3170.png)
